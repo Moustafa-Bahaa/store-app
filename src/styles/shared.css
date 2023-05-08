@@ -1,0 +1,29 @@
+[dir="rtl"] .font-bold  {
+    margin-left: 0.5rem;
+}
+
+[dir="ltr"] .font-bold {
+    margin-right: 0.5rem;
+}
+[dir="rtl"] .p-button-icon {
+    margin-left: 0.5rem;
+}
+
+[dir="ltr"] .p-button-icon {
+    margin-right: 0.5rem;
+}
+[dir="rtl"] .p-radiobutton {
+    margin-left: 0.5rem;
+}
+
+[dir="ltr"] .p-radiobutton {
+    margin-right: 0.5rem;
+}
+
+[dir="rtl"] .p-datatable .p-datatable-tbody > tr > td {
+    text-align: right;
+}
+
+.card {
+    border: 1px solid #e0e0e0;;
+ }

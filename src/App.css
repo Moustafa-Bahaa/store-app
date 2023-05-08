@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.store-container{
+  padding: 5rem;
+  text-align: left;
+
+}
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +31,29 @@
 
 .App-link {
   color: #61dafb;
+}
+.table-header-conatainer{
+  display: flex;
+  justify-content: space-between;
+}
+.filter-form-container{
+  display: flex;
+  flex-direction: row;
+}
+.radio{
+  display: inline-block;
+  margin: 10px ;
+}
+.responsive-grid {
+  display: grid;
+  grid-gap: 5rem;
+  row-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {

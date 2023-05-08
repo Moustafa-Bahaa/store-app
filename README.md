@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with Store-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+# Technologies used:
 
-## Available Scripts
+React, Primereact, Typescript, Css
 
-In the project directory, you can run:
+# Project structure:
+
+src - components
+    - core
+    - enums
+    - models
+    - services
 
 ### `npm start`
 

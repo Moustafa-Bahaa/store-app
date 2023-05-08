@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import "primeicons/primeicons.css";
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/mdc-light-indigo/theme.css";
+import { useTranslation } from "react-i18next";
+import "./styles/shared.css"
 import './App.css';
+import AllStoresTable from './components/store/all-stores/all-stores-table';
+import Header from "./components/header/Header";
 
 function App() {
+
+ const { i18n } = useTranslation();
+ document.body.dir = i18n.dir();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Header/>
+      </div>
+      <div className="store-container">
+      <AllStoresTable/>
+      </div>
+      
     </div>
   );
 }
